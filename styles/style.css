@@ -20,7 +20,7 @@ body {
 }
 
 .cabecalho {
-  margin: 2.5rem 0 0 5.625rem;
+  margin: 2.5rem;
 }
 
 main {
@@ -30,7 +30,7 @@ main {
 }
 
 .apresentacao__conteudo {
-  padding: 5% 0 0 20%;
+  padding: 4% 0 0 10%;
 }
 
 .apresentacao__conteudo textarea {
@@ -67,7 +67,7 @@ main {
 
 .apresentacao__conteudo__botao {
   display: flex;
-  margin: 15px 0 0 0;
+  margin: 0.9rem 0 0 0;
   gap: 1.875rem;
 }
 
