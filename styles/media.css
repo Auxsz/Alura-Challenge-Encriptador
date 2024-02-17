@@ -20,6 +20,10 @@
     #boneco{
         max-width: 15.625rem;
     }
+    
+    .apresentacao__conteudo textarea{
+        width: 100%;
+    }
 }
 
 /* Tablet */
