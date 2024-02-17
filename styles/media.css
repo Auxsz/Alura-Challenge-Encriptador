@@ -51,7 +51,7 @@
         justify-content: center;
         text-align: center;
         width: 40.813rem;
-        height: 8.125rem;
+        height: 22rem;;
         margin: 3.125rem 0 1.875rem 3.375rem;
         border-radius: 2rem;
     }
@@ -61,13 +61,13 @@
         width: auto;
     }
 
-    .boneco{
+    #boneco{
         display: none;
     }
 }
 
 /* Celular */
-@media screen and (max-width: 375px){
+@media screen and (max-width: 450px){
     *{
         padding: 0px;
         margin: 0px;
@@ -93,13 +93,14 @@
     }
 
     .apresentacao__conteudo__terciario{
-        width: 20.625rem;
-        padding: 3%;
-        margin: 3.75rem 3%;
+        width: 24rem;
+        padding: 5%;
+        margin: 3.75rem 5%;
+        height: 37.5rem;
         
     }
 
-    .boneco{
+    #boneco{
         display: none;
     }
 }
