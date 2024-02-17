@@ -24,6 +24,10 @@
     .apresentacao__conteudo textarea{
         width: 100%;
     }
+    
+    .btn-copiar{
+        padding: 1rem 4.688rem;
+    }
 }
 
 /* Tablet */
