@@ -1,12 +1,18 @@
 /* Notebook */
 
-@media screen and (max-width: 1360px){
+@media screen and (max-width: 1466px){
+    
     main{
-        gap: 9rem;
+        justify-content: space-around;
     }
 
     .apresentacao__conteudo{
-        padding: 10% 0 0 0;
+        padding: 0;
+        margin: 10% 0 0 4%;
+    }
+
+    .apresentacao__conteudo textarea{
+        width: 100%;
     }
 
     .apresentacao__conteudo__terciario{
@@ -25,12 +31,8 @@
         max-width: 15.625rem;
     }
 
-    .apresentacao__conteudo textarea{
-        width: 100%;
-    }
-
     .btn-copiar{
-        padding: 1rem 4.688rem;
+        padding: 10px;
     }
 }
 
@@ -52,8 +54,7 @@
     }   
 
     .cabecalho{
-        margin: 0px;
-        padding: 4.688rem 0 0 0.625rem;
+        margin: 4.375rem 0px;
     }
 
     main{
@@ -63,9 +64,8 @@
     }
 
     .apresentacao__conteudo{
-        margin: 0px;
-        padding: 10% 0 0 0
-        ;
+        margin: 3% 5% 0 5% ;
+        
     }
 
 
@@ -90,7 +90,7 @@
         text-align: center;
         width: 40.813rem;
         height: 22rem;;
-        margin: 3.125rem 0 1.875rem 3.375rem;
+        margin: 5%;
         border-radius: 2rem;
     }
 
@@ -118,6 +118,7 @@
 
     .apresentacao__conteudo{
         padding: 3%;
+        margin: 0px;
     }
 
     .apresentacao__conteudo__botao{
@@ -131,7 +132,7 @@
     }
 
     .apresentacao__conteudo__terciario{
-        width: 21.5rem;
+        width: 22rem;
         padding: 5%;
         margin: 3.75rem 5%;
         height: 37.5rem;
