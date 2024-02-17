@@ -5,6 +5,10 @@
         gap: 9rem;
     }
 
+    .apresentacao__conteudo{
+        padding: 10% 0 0 0;
+    }
+
     .apresentacao__conteudo__terciario{
         width:16.875rem;
     }
@@ -20,15 +24,17 @@
     #boneco{
         max-width: 15.625rem;
     }
-    
+
     .apresentacao__conteudo textarea{
         width: 100%;
     }
-    
+
     .btn-copiar{
         padding: 1rem 4.688rem;
     }
 }
+
+
 
 /* Tablet */
 @media screen and (max-width: 768px){
@@ -58,7 +64,7 @@
 
     .apresentacao__conteudo{
         margin: 0px;
-        padding: 10% 0 0 7%
+        padding: 10% 0 0 0
         ;
     }
 
@@ -99,7 +105,7 @@
 }
 
 /* Celular */
-@media screen and (max-width: 450px){
+@media screen and (max-width: 400px){
     *{
         padding: 0px;
         margin: 0px;
