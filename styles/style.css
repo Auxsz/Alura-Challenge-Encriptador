@@ -30,7 +30,8 @@ main {
 }
 
 .apresentacao__conteudo {
-  padding: 4% 0 0 10%;
+  justify-content: space-evenly;
+  padding: 5% 0 0 0;
 }
 
 .apresentacao__conteudo textarea {
