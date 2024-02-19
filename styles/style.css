@@ -94,6 +94,7 @@ main {
   display: flex;
   align-items: center;
   text-align: center;
+  justify-content: center;
   background-color: #fff;
   width: 20%;
   height: 56.25rem;
@@ -121,7 +122,9 @@ main {
 }
 
 .start__content{
+
   max-width: 100%;
+
 }
 
 .rodape {
