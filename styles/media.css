@@ -1,13 +1,24 @@
+@media screen and (max-width: 1650px){
+    #boneco{
+        max-width: 100%;
+    }
+
+    .start__content{
+        max-width: 100%;
+    }
+}
+
 /* Notebook */
 
-@media screen and (max-width: 1360px){
+@media screen and (max-width: 1400px){
     
     main{
-       gap: 9rem;
+        gap: 0px;
+        justify-content: space-around;
     }
 
     .apresentacao__conteudo{
-       padding: 5% 0 0 0;
+        padding: 2% 0 0 0;
     }
 
     .apresentacao__conteudo textarea{
