@@ -25,12 +25,10 @@ body {
 
 main {
   display: flex;
-  gap: 25rem;
-  justify-content: center;
+  justify-content:space-around;
 }
 
 .apresentacao__conteudo {
-  justify-content: space-evenly;
   padding: 5% 0 0 0;
 }
 
@@ -144,8 +142,9 @@ main {
   height: 100%;
   color: var(--cor-terciaria);
   font-size: 24px;
-  padding: 2rem;
+  padding: 1rem;
 }
+
 .result__content textarea {
   width: 100%;
   height: calc(100% - 60px);
