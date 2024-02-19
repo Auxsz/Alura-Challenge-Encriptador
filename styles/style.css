@@ -120,6 +120,10 @@ main {
   color: var(--cor-terciaria);
 }
 
+.start__content{
+  max-width: 100%;
+}
+
 .rodape {
   width: auto;
   text-align: center;
