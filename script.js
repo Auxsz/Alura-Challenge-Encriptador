@@ -61,9 +61,9 @@ function descriptografar() {
   resultado.innerHTML = textoSaida;
 }
 
+//Copia o texto
 function copiarTexto() {
-  const textoSaida = document.getElementById('resultado').innerText;
-  textoSaida.select()
+  const textoSaida = document.getElementById('resultado').innerHTML;
   navigator.clipboard.writeText(textoSaida);
 }
 
