@@ -2,10 +2,6 @@
     #boneco{
         max-width: 100%;
     }
-
-    .start__content{
-        max-width: 100%;
-    }
 }
 
 /* Notebook */
@@ -26,7 +22,7 @@
     }
 
     .apresentacao__conteudo__terciario{
-        height: 600px;
+        height: 40rem;
     }
 
     .apresentacao__conteudo__terciario__titulo{
@@ -46,7 +42,12 @@
     }
 }
 
-
+@media screen and (max-width: 1100px){
+    
+    #boneco{
+        display: none;
+    }
+}
 
 /* Tablet */
 @media screen and (max-width: 768px){
@@ -106,7 +107,6 @@
 
     .rodape{
         font-size: 0.875rem;
-        width: auto;
     }
 
     #boneco{
