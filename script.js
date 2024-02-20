@@ -1,3 +1,4 @@
+// Função para remover os elementos do output (área branca)
 
 function removerElemento() {
   // Esconde a div inicial
@@ -7,11 +8,8 @@ function removerElemento() {
   // Exibir a div resultado
   const resultContent = document.querySelector(".result__content");
   resultContent.classList.remove("hidden");
-
-  criptografar();
 }
 
-// Função para remover os elementos do output (área branca)
 
 function criptografar() {
   // Pega o texto dentro do textarea
@@ -20,14 +18,18 @@ function criptografar() {
   // Verifica se o textarea não está vazio
   if (textoEntrada.trim() === "") {
       alert("Por favor, insira algum texto para criptografar.");
-      return;
   }
 
   // Verifica se há caracteres especiais
-  const verificarTexto = /[!@#$%^&*(),.?":{}|<>~´`^òàèùìàâêîôûãõ]/;
+  const verificarTexto = /[!@#$%^&*(),.?":{}|<>~´`^òàèùìàâêîôûãõá]/;
   if (verificarTexto.test(textoEntrada)) {
       alert("A criptografia não suporta caracteres especiais.");
-      return;
+
+      // Limpa o Campo de input Caso tenha caractere especial
+      const limparCaracteres = document.getElementById('text-Input')
+      limparCaracteres.value = ''
+  }else{
+    removerElemento()
   }
 
   // Seleciona uma div que eu deixei armazenada para pós-criptografia
@@ -43,6 +45,7 @@ function criptografar() {
 
   // Exibe o resultado
   resultado.innerHTML = textoSaida;
+
 }
 
 function descriptografar() {
@@ -61,9 +64,7 @@ function descriptografar() {
   resultado.innerHTML = textoSaida;
 }
 
-//Copia o texto
 function copiarTexto() {
   const textoSaida = document.getElementById('resultado').innerHTML;
   navigator.clipboard.writeText(textoSaida);
 }
-
