@@ -28,8 +28,6 @@ function criptografar() {
       // Limpa o Campo de input Caso tenha caractere especial
       const limparCaracteres = document.getElementById('text-Input')
       limparCaracteres.value = ''
-  }else{
-    removerElemento()
   }
 
   // Seleciona uma div que eu deixei armazenada para pós-criptografia
