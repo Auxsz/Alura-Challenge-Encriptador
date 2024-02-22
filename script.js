@@ -17,14 +17,13 @@ function criptografar() {
 
   // Verifica se o textarea não está vazio
   if (textoEntrada.trim() === "") {
-      alert("Por favor, insira algum texto para criptografar.");
+      
   }
 
   // Verifica se há caracteres especiais
   const verificarTexto = /[!@#$%^&*(),.?":{}|<>~´`^òàèùìàâêîôûãõá]/;
   if (verificarTexto.test(textoEntrada)) {
-      alert("A criptografia não suporta caracteres especiais.");
-
+      
       // Limpa o Campo de input Caso tenha caractere especial
       const limparCaracteres = document.getElementById('text-Input')
       limparCaracteres.value = ''
